@@ -3,4 +3,5 @@ git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
 pip install -e ".[torch,metrics,deepspeed,liger-kernel,bitsandbytes,vllm]"
 pip install unsloth flash_attn
+pip install -e ".[torch,metrics,deepspeed,liger-kernel,bitsandbytes,vllm]"
 llamafactory-cli webui
