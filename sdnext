@@ -1,0 +1,3 @@
+git clone --recurse-submodules https://github.com/vladmandic/sdnext
+cd sdnext
+venv_dir=/root/a1111venv COMMANDLINE_ARGS=--listen ./webui.sh -f
