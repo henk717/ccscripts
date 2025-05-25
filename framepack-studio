@@ -1,4 +1,5 @@
 git clone --recursive https://github.com/colinurbs/FramePack-Studio
 cd FramePack-Studio
 pip install -r requirements.txt
+pip install torchvision
 python studio.py
