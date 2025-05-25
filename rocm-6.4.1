@@ -1,0 +1,6 @@
+cd /tmp
+
+aria2c -x 16 -s 16 -c https://repo.radeon.com/rocm/installer/rocm-runfile-installer/rocm-rel-6.4.1/ubuntu/24.04/rocm-installer_1.1.1.60401-30-83~24.04.run && sudo bash rocm-installer_1.1.1.60401-30-83~24.04.run deps=install rocm postrocm target="/opt"
+rm -rf rocm-installer*
+
+cd /workspace
