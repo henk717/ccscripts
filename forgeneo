@@ -3,4 +3,4 @@
 git clone --recurse https://github.com/cruelpleasure/sd-webui-forge-NEO/
 cd sd-webui-forge-NEO
 mamba install cmake gxx=13 pycairo -y
-python launch.py --api
+python launch.py --api --listen
