@@ -1,0 +1,6 @@
+#!/bin/bash
+# Added on request, but unmaintained use sdnext if you want my support
+git clone --recurse https://github.com/cruelpleasure/sd-webui-forge-NEO/
+cd sd-webui-forge-NEO
+mamba install cmake gxx=13 pycairo -y
+python launch.py --api
