@@ -1,0 +1,4 @@
+git clone --recurse https://github.com/deepbeepmeep/Wan2GP
+cd Wan2GP
+uv pip install -r requirements.txt
+python wgp.py --listen
